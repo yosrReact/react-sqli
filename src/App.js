@@ -1,9 +1,10 @@
 import Hello from "./components/hello/Hello"
+import TaskPage from "./pages/taskPage/TaskPage"
 function App() {
   return (
     <div className="App">
       <Hello />
-      <p>bonjour</p>
+      <TaskPage />
     </div>
   )
 }
